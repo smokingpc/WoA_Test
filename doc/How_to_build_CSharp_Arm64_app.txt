@@ -1,0 +1,5 @@
+To build ARM64 app for CSharp, remember to change "Platform Target" 
+in project configuration.
+
+The "AnyCPU" platform doesn't support ARM/ARM64, you have to set this 
+option to "ARM64" then your app can run in Windows10 on ARM64 OS.
